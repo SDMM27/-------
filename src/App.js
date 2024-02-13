@@ -28,7 +28,10 @@ export default function App() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img
+            src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
+            alt="oui"
+          />
           <div className="text-4xl font-bold my-4">
             Урааааа !!! Tы мой котик 🐈🐾🍉🌞🥰❤️
           </div>
@@ -38,6 +41,7 @@ export default function App() {
           <img
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            alt="oui"
           />
           <h1 className="text-4xl my-4">
             Ты будешь моей девушкой Полинка cолнышко?🌹❤️‍🔥🇷🇺🌹
